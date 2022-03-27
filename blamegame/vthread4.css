@@ -1,0 +1,80 @@
+vthread4 {
+  position:relative;
+  display:grid;
+  grid-template-rows:  auto auto auto;
+  margin:30px auto;
+  width:300px;
+  background:var(--white-hex);
+  background-image: linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border:1px solid var(--gray-hex);
+  text-align:justify;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+vthread4 top {
+  background:var(--white2-hex);
+  height:50px;
+  margin-bottom:30px;
+  border-bottom:1px solid var(--gray-hex);
+}
+
+vthread4 top img {
+  display:block;
+  margin:10px auto;
+  width:80px;
+  height:80px;
+  padding:10px;
+  background:var(--white2-hex);
+  border-radius:20px;
+}
+
+vthread4 top img.circle {
+  border-radius: 100%;
+}
+
+vthread4 .content {
+  padding:30px;
+}
+
+vthread4 b {
+  background:var(--white2-hex);
+  padding:3px;
+  color:var(--accent-color)!important;
+}
+
+vthread4 i {
+  background:var(--white2-hex);
+  padding:3px;
+  color:var(--secondary-color)!important;
+}
+
+vthread4 u {
+  padding:3px;
+  font:15px var(--display);
+  text-decoration-color:var(--tertiary-color)!important;
+}
+
+vthread4 a {
+  background:var(--white2-hex);
+  padding:3px;
+  font:15px var(--display);
+  color:var(--accent-color)!important;
+}
+
+vthread4 tag {
+  display:block;
+  padding:10px;
+  background:var(--white2-hex);
+  text-align:center;
+  border-top:1px solid var(--gray-hex);
+}
+
+vthread4 tag a::before {
+  content:'[ ';
+}
+
+vthread4 tag a::after {
+  content:' ]';
+}

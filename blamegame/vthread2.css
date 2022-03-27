@@ -1,0 +1,92 @@
+vthread2 {
+  position:relative;
+  display:grid;
+  grid-template-rows:  auto auto auto;
+  margin:30px auto;
+  width:300px;
+  background:var(--white-hex);
+  background-image: linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border:1px solid var(--border);
+  text-align:justify;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+vthread2 top {
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  background:rgba(var(--white2),0.5);
+  border-bottom:1px solid var(--border);
+}
+
+vthread2 top img {
+  margin:10px;
+  padding:10px;
+  background:var(--white2-hex);
+  border:1px solid var(--gray-hex);
+  border-radius:20px;
+}
+
+vthread2 top img.rectangle {
+  width:215px;
+}
+
+vthread2 top img.square {
+  width:110px;
+  height:110px;
+}
+
+vthread2 top img.circle {
+  width:110px;
+  height:110px;
+  border-radius:100%;
+}
+
+vthread2 .content {
+  margin:40px;
+  padding:20px;
+  background:var(--white2-hex);
+  border:1px solid var(--gray-hex);
+  border-radius:20px;
+}
+
+vthread2 b {
+  font-family:var(--mono);
+  background-image: linear-gradient(to right, var(--fontgradient));
+  -webkit-background-clip: text;
+  color:var(--clear)!important;
+}
+
+vthread2 i {
+  color:var(--secondary-color)!important;
+}
+
+vthread2 u {
+  font:15px var(--display);
+  color:var(--tertiary-color)!important;
+}
+
+vthread2 a {
+  font:15px var(--display);
+  color:var(--accent-color)!important;
+}
+
+vthread2 tag {
+  display:block;
+  padding:10px;
+  background:var(--white2-hex);
+  text-align:center;
+  border-top:1px solid var(--gray-hex);
+}
+
+vthread2 tag a::before {
+  content:'[ ';
+}
+
+vthread2 tag a::after {
+  content:' ]';
+}
