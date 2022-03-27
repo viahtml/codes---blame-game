@@ -1,0 +1,106 @@
+distance {
+  position:relative;
+  display:block;
+  margin:30px auto;
+  padding:10px;
+  width:300px;
+  height:500px;
+  background:linear-gradient(to top right, var(--pastelgradient));
+  border-radius:20px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+distance contact {
+  display:block;
+  margin:10px;
+  font:300 0.65rem var(--sans);
+  text-transform:lowercase;
+}
+
+distance contact small {
+  display:block;
+  font:800 1.3rem var(--sans);
+  color:var(--accent-hex);
+}
+
+distance .msgs {
+  display:block;
+  height:355px;
+  padding-right:13px;
+  overflow:auto;
+}
+
+distance .msgs p {
+  float:right;
+  clear:both;
+  max-width:85%;
+  padding:5px 10px;
+  background:var(--white-hex);
+  border-radius:10px 10px 0 10px;
+  margin-bottom:-5px;
+}
+
+distance .msgs .sent {
+  float:right;
+  clear:both;
+  margin:10px;
+  font:300 0.6rem var(--sans);
+  text-transform:uppercase;
+}
+
+distance .msgs .action {
+  clear:both;
+  margin:30px 30px 10px;
+}
+
+distance .msgs .action b {
+  color:var(--accent-hex);
+  font-weight:600;
+}
+
+distance .msgs .action i {
+  color:var(--secondary-hex);
+  background:var(--white-hex);
+}
+
+distance distance-b {
+  position:relative;
+  display:flex;
+  flex-flow: row;
+  justify-content:space-between;
+  align-items:center;
+  height:75px;
+  padding:0 20px 20px;
+  margin:15px -10px;
+  background:rgba(var(--white),0.5);
+}
+
+distance distance-b img {
+  align-self:flex-start;
+  margin-top:-20px;
+  width:50px;
+  height:50px;
+  object-fit:cover;
+  object-position:center center;
+  padding:3px;
+  border-radius:100%;
+  background:linear-gradient(to top right, var(--fontgradient));
+   box-shadow: 0 0 0 5px rgba(var(--white),0.5);
+}
+
+
+distance distance-b i {
+  font-size:0.815rem;
+  color:var(--black-hex);
+}
+
+distance distance-b from {
+  position:absolute;
+  display:block;
+  margin:30px -20px 0;
+  width:100%;
+  text-align:center;
+  font-weight:600;
+  text-transform:uppercase;
+}

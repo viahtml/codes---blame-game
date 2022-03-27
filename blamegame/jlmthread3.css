@@ -1,0 +1,59 @@
+jlthread3 {
+  position: relative;
+  display: grid;
+  grid-template-columns:3fr 1fr;
+  margin: 30px auto;
+  width: 400px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius: 20px;
+  overflow:hidden;
+}
+
+jlthread3 .jlthread3body {
+  background:var(--white2-hex);
+  padding:50px;
+}
+
+jlthread3 b {
+  background: linear-gradient(to top right, var(--fontgradient));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--clear);
+}
+
+jlthread3 i {
+  font-weight:500;
+  color:var(--secondary-color);
+}
+
+jlthread3 jlthread3side {
+ position:relative;
+ display:flex;
+ flex-flow:row wrap;
+ align-items:center;
+ writing-mode: tb-rl;
+ font: 1.5rem var(--display);
+ line-height: 80%;
+ padding-top:30px;
+}
+
+jlthread3 jlthread3side small {
+  display:block;
+  font:300 1.15rem var(--sans);
+}
+
+jlthread3 jlthread3side img {
+  position:absolute;
+  width:80px;
+  height:80px;
+  object-fit:cover;
+  object-position:center center;
+  bottom:30px;
+  border:5px solid var(--white-hex);
+  border-radius:20px;
+}
+
+jlthread3 jlthread3side img.circle {
+  border-radius:100%;
+}

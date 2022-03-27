@@ -1,0 +1,60 @@
+jlthread1 {
+  position:relative;
+  display:block;
+  margin:3vh auto;
+  width:300px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius:10px;
+  padding:25px 40px 45px;
+}
+
+jlthread1 b {
+  color:var(--accent-color)!important;
+  background:var(--white2-hex);
+  padding:3px;
+}
+
+jlthread1 i {
+  font-weight:500;
+}
+
+jlthread1 img {
+  margin:25px auto;
+  display:block;
+  object-fit:cover;
+  object-position:center center;
+  border:5px solid var(--white-hex);
+}
+
+jlthread1 img.circle {
+  width:80px;
+  height:80px;
+  border-radius:100%;
+}
+
+jlthread1 img.square {
+  width:80px;
+  height:80px;
+  border-radius:5px;
+}
+
+jlthread1 tag {
+  position:relative;
+  display:inline;
+  top:20px;
+  text-align:center;
+  background:var(--white-hex);
+  background-image:linear-gradient(to right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+  padding:2px 10px;
+  border-radius:20px;
+  font:600 0.7rem var(--sans);
+  text-transform:uppercase;
+  letter-spacing:0;
+}
+
+jlthread1 tag a {
+  color:var(--white-hex)!important;
+}

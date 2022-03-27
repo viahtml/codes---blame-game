@@ -1,0 +1,109 @@
+jlcomm2 {
+  position:relative;
+  display:block;
+  margin:30px auto;
+  width:300px;
+  height:510px;
+  background:linear-gradient(to top right, var(--pastelgradient));
+  border-radius:20px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+jlcomm2 userimg {
+  position:relative;
+  display:block;
+  margin:20px auto;
+  padding:5px;
+  background:linear-gradient(to top right, var(--fontgradient));
+  border-radius:100%;
+  width:70px;
+  height:70px;
+  z-index:2;
+}
+
+jlcomm2 userimg img {
+  width:60px;
+  height:60px;
+  object-fit:cover;
+  object-position:center center;
+  border-radius:100%;
+  border:2px solid var(--white-hex);
+}
+
+jlcomm2 connected {
+  position:relative;
+  display:block;
+  margin:25px auto;
+  text-align:center;
+  font:300 0.53rem var(--sans);
+  text-transform:uppercase;
+  z-index:2;
+}
+
+jlcomm2 connected contact {
+  display:block;
+  font:1.5rem var(--display);
+  text-transform:lowercase;
+  background:linear-gradient(to top right, var(--fontgradient));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--clear);
+}
+
+jlcomm2 connected icons {
+  width:100%;
+  display:flex;
+  flex-flow:row;
+  justify-content:space-around;
+  align-items:center;
+}
+
+jlcomm2 connected icon {
+  margin-top:5px;
+  background:linear-gradient(to top right, var(--fontgradient));
+  padding:10px 11px;
+  border-radius:100%;
+}
+
+jlcomm2 .msgs {
+  position:relative;
+  display:block;
+  height:255px;
+  padding-right:13px;
+  overflow:auto;
+  z-index:2;
+}
+
+jlcomm2 .msgs p {
+  float:right;
+  clear:both;
+  max-width:85%;
+  padding:5px 10px;
+  background:var(--white-hex);
+  border-radius:10px 10px 0 10px;
+  margin-bottom:-5px;
+}
+
+jlcomm2 .msgs .sent {
+  float:right;
+  clear:both;
+  margin:10px;
+  font:300 0.6rem var(--sans);
+  text-transform:uppercase;
+}
+
+jlcomm2 .msgs .action {
+  clear:both;
+  margin:30px 30px 10px;
+}
+
+jlcomm2 .msgs .action b {
+  background:var(--white-hex);
+  color:var(--accent-color);
+  font-weight:600;
+}
+
+jlcomm2 .msgs .action i {
+  color:var(--secondary-color);
+  background:var(--white-hex);
+}

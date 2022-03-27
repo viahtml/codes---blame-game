@@ -1,0 +1,113 @@
+jlthread2 {
+  position:relative;
+  display:block;
+  margin:3vh auto;
+  width: 350px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius: 20px;
+}
+
+jlthread2 b {
+  color:var(--accent-color)!important;
+  background:var(--white2-hex);
+  padding:3px;
+}
+
+jlthread2 i {
+  font-weight:500;
+  color:var(--secondary-color)!important;
+  background:var(--white2-hex);
+}
+
+jlthread2 jlthread2top {
+  position:relative;
+  display:block;
+  width:100%;
+  height:70px;
+  padding-top:3px;
+  background:var(--white2-hex);
+  border-radius:20px 20px 0 0;
+}
+
+jlthread2 jlthread2top img {
+  margin:25px auto;
+  display:block;
+  object-fit:cover;
+  object-position:center center;
+  border:5px solid var(--white2-hex);
+}
+
+jlthread2 jlthread2top img.circle {
+  width:80px;
+  height:80px;
+  border-radius:100%;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  padding:5px;
+}
+
+jlthread2 jlthread2top img.square {
+  width:80px;
+  height:80px;
+  border-radius:20px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  padding:5px;
+}
+
+jlthread2 .jlthread2body {
+  padding:50px 45px;
+}
+
+jlthread2 jlthread2bottom {
+  position:relative;
+  display:block;
+  width:100%;
+  padding:15px;
+  background:var(--white2-hex);
+  border-radius:0 0 20px 20px;
+  text-align:center;
+}
+
+jlthread2 jlthread2bottom tag {
+  font: 600 1rem var(--sans);
+  letter-spacing:0;
+  text-transform: uppercase;
+  background: linear-gradient(to right, var(--fontgradient));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--clear);
+}
+
+
+jlthread2.alternate {
+  background: var(--white2-hex);
+}
+
+jlthread2.alternate b {
+  background: linear-gradient(to right, var(--fontgradient));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--clear);
+}
+
+jlthread2.alternate jlthread2top {
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+}
+
+jlthread2.alternate jlthread2bottom {
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+}
+
+jlthread2.alternate jlthread2bottom tag a {
+  background:none;
+  color:var(--white-hex)!important;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+}

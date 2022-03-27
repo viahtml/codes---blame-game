@@ -1,0 +1,46 @@
+jlthread4 {
+  position: relative;
+  display: grid;
+  margin: 3vh auto;
+  width: 300px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius: 15px;
+}
+
+jlthread4 img {
+  margin:20px 20px;
+  width:85%;
+  height:130px;
+  object-fit:cover;
+  object-position:center center;
+  border:5px solid var(--white-hex);
+  border-radius: 15px;
+}
+
+jlthread4 .jlthread4body {
+  margin:0 20px 20px;
+  padding:30px;
+  background:var(--white-hex);
+  border-radius:15px;
+}
+
+jlthread4 jlthread4bottom {
+  margin:0 20px 20px;
+  padding:5px;
+  text-align:center;
+  background:var(--white-hex);
+  border-radius:15px;
+}
+
+jlthread4 b, jlthread4 i, jlthread4 jlthread4bottom tag {
+  background: linear-gradient(to left, var(--fontgradient));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--clear);
+}
+
+jlthread4 jlthread4bottom tag {
+  font-weight:800;
+  text-transform:uppercase;
+}

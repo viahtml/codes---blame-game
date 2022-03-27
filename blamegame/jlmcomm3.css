@@ -1,0 +1,110 @@
+only {
+  position:relative;
+  display:block;
+  margin:30px auto;
+  width:300px;
+  height:530px;
+  background:var(--white2-hex);
+  border-radius:25px;
+  overflow:hidden;
+}
+
+only you {
+  position:relative;
+  display:block;
+  margin:10px;
+  width:280px;
+  height:510px;
+  background:linear-gradient(to top right, var(--pastelgradient));
+  border-radius:20px;
+}
+
+only you onlyimg {
+  position:absolute;
+  display:block;
+  margin:27px;
+}
+
+only you onlyimg img {
+  width:60px;
+  height:60px;
+  object-fit:cover;
+  object-position:center center;
+  border-radius:100%;
+  padding:3px;
+  background:var(--white-hex);
+  border:1px solid var(--secondary-hex);
+}
+
+only you contact {
+  position:absolute;
+  display:block;
+  margin:33px 0 0 107px;
+  font:600 0.9rem var(--sans);
+  color:var(--accent-color);
+  text-transform:lowercase;
+}
+
+only you contact small {
+  display:block;
+  font:300 0.6rem var(--sans);
+  text-transform:uppercase;
+  text-shadow:none;
+  margin-top:5px;
+  padding-top:10px;
+  border-top:1px solid var(--secondary-hex);
+  width:150px;
+}
+
+only .msgs {
+  position:absolute;
+  display:block;
+  margin:100px auto;
+  width:280px;
+  height:335px;
+  border-radius:20px;
+  border-top:20px solid var(--clear);
+  border-bottom:20px solid var(--clear);
+  overflow:auto;
+}
+
+only .msgs p {
+  float:right;
+  margin-top:0;
+  margin-right:15px;
+  margin-bottom:5px;
+  clear:both;
+  max-width:215px;
+  background:var(--white-hex);
+  padding:15px;
+  border-radius:15px 15px 0 15px;
+}
+
+only .call {
+  position:absolute;
+  display:block;
+  margin:100px auto;
+  padding:0 20px;
+  width:240px;
+  height:330px;
+  border-radius:20px;
+  border-top:20px solid var(--clear);
+  border-bottom:20px solid var(--clear);
+  overflow:auto;
+}
+
+only .call b {
+  color:var(--accent-color);
+  font-weight:600;
+  font-size:13px;
+}
+only type {
+  position:absolute;
+  display:block;
+  width:85%;
+  margin:20px;
+  bottom:10px;
+  background:var(--white-hex);
+  padding:3px 10px;
+  border-radius:20px;
+}

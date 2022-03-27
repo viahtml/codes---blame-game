@@ -1,0 +1,93 @@
+misunderstood {
+  position:relative;
+  display:block;
+  margin:30px auto;
+  width:350px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius:10px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+misunderstood .words {
+  padding:50px;
+  border-radius:10px;
+}
+
+misunderstood .words b {
+  background:var(--white-hex);
+  background-image:linear-gradient(to right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+  color:var(--white-hex);
+  padding:5px;
+  font-weight:600;
+  border-radius:20px;
+}
+
+misunderstood .words i {
+  font-weight:300;
+  background:var(--white2-hex);
+  color:var(--secondary-color);
+  padding:5px;
+  border-radius:20px;
+}
+
+misunderstood .top {
+  background:rgba(var(--white),0.3);
+  margin:30px 0;
+  width:90%;
+  border:1px solid var(--gray-hex);
+  border-left:0;
+  height:100px;
+  border-radius: 0 50px 50px 0;
+}
+
+misunderstood .top img.square {
+  position:absolute;
+  margin:20px;
+  width:50px;
+  height:50px;
+  border-radius:10px;
+  object-fit:cover;
+  object-position:center center;
+  padding:5px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+}
+
+misunderstood .top img.circle {
+  position:absolute;
+  margin:20px;
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  object-fit:cover;
+  object-position:center center;
+  padding:5px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+}
+
+misunderstood .top tag {
+  position:absolute;
+  height:50px;
+  display:flex;
+  flex-flow:column wrap;
+  justify-content:center;
+  align-items:flex-start;
+  margin:25px 0 0 90px;
+  font:300 0.6rem var(--sans);
+  text-transform:uppercase;
+}
+
+misunderstood .top tag small {
+  display:block;
+  font:300 1.5rem var(--sans);
+  color:var(--accent-color);
+  text-transform:lowercase;
+  margin-top:-7px;
+}

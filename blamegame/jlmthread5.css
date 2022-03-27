@@ -1,0 +1,104 @@
+stateofmind {
+  position:relative;
+  display:block;
+  margin:30px auto;
+  width:350px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius:10px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+stateofmind .words {
+  padding:50px;
+  border-radius:10px;
+}
+
+stateofmind .words b {
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+  color:var(--white-hex);
+  padding:5px;
+  font-weight:600;
+  border-radius:20px;
+}
+
+stateofmind  .words i {
+  font-weight:300;
+  background:var(--white2-hex);
+  color:var(--secondary-color);
+  padding:5px;
+  border-radius:20px;
+}
+
+stateofmind .top {
+  background:rgba(var(--white),0.3);
+  height:140px;
+  border-bottom:1px solid var(--gray-hex);
+}
+
+stateofmind .top img.square {
+  position:absolute;
+  margin:30px;
+  width:80px;
+  height:80px;
+  border-radius:10px;
+  object-fit:cover;
+  object-position:center center;
+  padding:5px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+}
+
+stateofmind .top img.circle {
+  position:absolute;
+  margin:30px;
+  width:80px;
+  height:80px;
+  border-radius:100%;
+  object-fit:cover;
+  object-position:center center;
+  padding:5px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+}
+
+stateofmind .top tag {
+  position:absolute;
+  height:90px;
+  display:flex;
+  flex-flow:column wrap;
+  justify-content:center;
+  align-items:flex-start;
+  margin:30px 0 0 120px;
+  font:300 0.6rem var(--sans);
+  text-transform:uppercase;
+}
+
+stateofmind .top tag small {
+  display:block;
+  font:400 1.5rem var(--sans);
+  color:var(--accent-color);
+  text-transform:lowercase;
+  margin-top:-7px;
+}
+
+stateofmind .top tag x {
+  display:inline-block;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius:20px;
+  padding:0 10px;
+  font:400 0.6rem var(--sans);
+  color:var(--white-hex);
+}
+
+stateofmind .top tag x a {
+  color:var(--white-hex);
+}

@@ -1,0 +1,102 @@
+uptown {
+  position:relative;
+  display:block;
+  margin:30px auto;
+  width:315px;
+  background:var(--white2-hex);
+  border-radius:10px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+uptown .words {
+  padding:40px;
+  border-radius:10px;
+}
+
+uptown .words b {
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  color:var(--black-hex);
+  padding:5px;
+  font-weight:600;
+  border-radius:20px;
+}
+
+uptown .words i {
+  font:italic 15px var(--sans);
+  color:var(--secondary-color);
+}
+
+uptown .top {
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  height:130px;
+  border-radius: 10px 10px 0 0;
+  border-bottom:1px solid var(--gray-hex);
+}
+
+uptown .top img.square {
+  float:left;
+  margin:80px 30px 20px;
+  width:80px;
+  height:80px;
+  border-radius:10px;
+  object-fit:cover;
+  object-position:center center;
+  padding:5px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+}
+
+uptown .top img.circle {
+  float:left;
+  margin:80px 30px 20px;
+  width:80px;
+  height:80px;
+  border-radius:100%;
+  object-fit:cover;
+  object-position:center center;
+  padding:5px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+}
+
+uptown .top tag {
+  position:absolute;
+  height:90px;
+  display:flex;
+  flex-flow:column wrap;
+  justify-content:center;
+  align-items:flex-start;
+  margin:30px 0 0 140px;
+  font:300 0.6rem var(--sans);
+  text-transform:uppercase;
+}
+
+uptown .top tag small {
+  display:block;
+  font:300 1.5rem var(--sans);
+  color:var(--accent-hex);
+  text-transform:lowercase;
+  margin-top:-7px;
+}
+
+uptown .top tag x {
+  display:inline-block;
+  background:var(--white-hex);
+  background-image:linear-gradient(to top right, var(--fontgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius:20px;
+  padding:0 10px;
+  font:400 0.6rem var(--sans);
+  color:var(--accent-hex);
+}
+
+uptown .top tag x a {
+  color:var(--white-hex);
+}
